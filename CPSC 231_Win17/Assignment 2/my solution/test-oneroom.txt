@@ -1,0 +1,17 @@
+CONFIG = '''
+# one-room map
+
+# the room
+room 20 10 30 7 Welcome to The Room!
+
+# greetz, yo
+char 2 10 5
+char C 5 5
+char C 8 5
+char 3 11 5
+char S 7 5
+char P 6 5
+char 1 12 5
+
+## This is a comment too.
+'''

@@ -1,0 +1,23 @@
+http://stackoverflow.com/questions/32417379/what-is-needed-for-curses-in-python-3-4-on-windows7
+
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#curses
+
+python -m pip install curses-2.2-cp34-none-win32.whl
+
+You can use curses crossplatform (Windows, MacOS, GNU/Linux) if you install manually for Windows or like other package in others.
+
+1º Install wheel package. Is you need more info about wheel click here?
+
+2º Go to this repository.
+
+3º Download a package with your python version, in example for python 3.4:
+
+curses-2.2-cp34-none-win_amd64.whl
+4º Install it (this command if for windows, in GNU/Linux install like other package)
+
+python -m pip install curses-2.2-cp34-none-win32.whl
+5º Just include in your python script:
+
+import curses 
+
+
